@@ -1,24 +1,33 @@
-### What is version control?
+## What is version control?
 ##### O que é controle de versão?
 
-### Install/Update Git
+## Install/Update Git
 ##### Instalar/Atualizar Git
 
-### Configure Git
+## Configure Git
 ##### Configurar Git
-Username:
-```git config --global user.name "name"```
-Email:
-```git config --global user.email "email"```
-Editor:
-```git config --global core.editor "editor" code --wait```
 
-### Display configuration
+Username:
+
+```$ git config --global user.name "your_name"```
+
+Email:
+
+```$ git config --global user.email "your_email"```
+
+Editor:
+
+```$ git config --global core.editor "your_fav_editor"```
+
+## Display configuration
 ##### Apresentar configuração
-```git config <key>```
+
+```$ git config <key>```
+
 Example/Exemplo:
+
 ```
-git config user.name
-git config user.email 
-git config list
+$ git config user.name
+$ git config user.email 
+$ git config list
 ```
