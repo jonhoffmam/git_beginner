@@ -1,11 +1,9 @@
-# [What's version control? (Versioning)](https://github.com/jonhoffmam/git_beginner)
-
 <p align="center">
    <a href="https://git-scm.com/">
       <img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="Logo Git" width="200px" height="80px">
    </a></br>
 </p>
-<p style="font-size: 14px; text-align: center">
+<p align="center">
    Git is a <a href="https://git-scm.com/about/free-and-open-source">free and open source</a> distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</br>
    Git is <a href="https://git-scm.com/doc">easy to learn</a> and has a <a href="https://git-scm.com/about/small-and-fast">tiny footprint with lightning fast performance.</a> It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like <a href="https://git-scm.com/about/branching-and-merging">cheap local branching</a>, convenient <a href="https://git-scm.com/about/staging-area">staging areas</a>, and <a href="https://git-scm.com/about/distributed">multiple workflows</a>.
 </p>
@@ -18,25 +16,25 @@
    Install/Update
 </h2>
 
-- ![](https://user-images.githubusercontent.com/46982925/77264132-82874580-6c78-11ea-895d-b41cdb40f546.png) **Windows**
+- ![Windows-Icon](https://user-images.githubusercontent.com/46982925/77264132-82874580-6c78-11ea-895d-b41cdb40f546.png) **Windows**
 >[Download](https://git-scm.com/download/win) latest source release
 
-- ![](https://user-images.githubusercontent.com/46982925/77265047-7308fc00-6c7a-11ea-8681-8cd213f23174.png) **Mac OS**
+- ![Mac-Icon](https://user-images.githubusercontent.com/46982925/77265047-7308fc00-6c7a-11ea-8681-8cd213f23174.png) **Mac OS**
 >[Download](https://git-scm.com/download/mac) latest source release
 
-- ![](https://user-images.githubusercontent.com/46982925/77265474-8ec0d200-6c7b-11ea-89fa-e352c02704e5.png) **Ubuntu** ![](https://user-images.githubusercontent.com/46982925/77266259-badd5280-6c7d-11ea-8249-c66a14e29d30.png) **Debian**
+- ![Ubuntu-Icon](https://user-images.githubusercontent.com/46982925/77265474-8ec0d200-6c7b-11ea-89fa-e352c02704e5.png) **Ubuntu** ![](https://user-images.githubusercontent.com/46982925/77266259-badd5280-6c7d-11ea-8249-c66a14e29d30.png) **Debian**
 
 ```sh
 $ sudo add-apt-repository ppa:git-core/ppa -y
 $ sudo apt-get update
 $ sudo apt-get install git -y
 ```
-- ![](https://user-images.githubusercontent.com/46982925/77268352-5ffb2980-6c84-11ea-8318-de0e5d624d40.png) **Other**
+- ![Linux-Icon](https://user-images.githubusercontent.com/46982925/77268352-5ffb2980-6c84-11ea-8318-de0e5d624d40.png) **Other**
 
 >Access the list [here](https://git-scm.com/download/linux)
 
 ## Commands ([All](https://git-scm.com/docs/git#_git_commands))
-#### ![](https://git-scm.com/images/icons/setup-sm.png) Setup and Config
+#### ![Setup-Icon](https://git-scm.com/images/icons/setup-sm.png) Setup and Config
 - ##### [config](https://git-scm.com/docs/git-config) - Get and set repository or global options
 
 _Open the terminal and type the commands:_
@@ -78,7 +76,7 @@ $ git config user.email
 $ git config --list
 ```
 
-#### ![](https://git-scm.com/images/icons/projects-sm.png) Getting and Creating Projects
+#### ![Get-Icon](https://git-scm.com/images/icons/projects-sm.png) Getting and Creating Projects
 - ##### [init](https://git-scm.com/docs/git-init) - Create an empty Git repository or reinitialize an existing one
 ```sh
 $ git init
@@ -125,7 +123,16 @@ $ git commit -m "comment"
 $ git reset HEAD <file_name>
 ```
 
-#### ![](https://git-scm.com/images/icons/branch-sm.png) Branching and Merging
+#### ![Branch-Icon](https://git-scm.com/images/icons/branch-sm.png) Branching and Merging
+- ##### [branch](https://git-scm.com/docs/git-branch) - List, create, or delete branches
+```sh
+$ git branch
+```
+_Create a new branch with checkout:_
+```sh
+$ git checkout -b <branch_name>
+```
+
 - ##### [log](https://git-scm.com/docs/git-log) - Show commit logs
 ```sh
 $ git log <options>
@@ -136,7 +143,7 @@ $ git log <options>
 $ git checkout <file_name>
 ```
 
-#### ![](https://git-scm.com/images/icons/sharing-sm.png) Sharing and Updating Projects
+#### ![Inpection-Icon](https://git-scm.com/images/icons/sharing-sm.png) Sharing and Updating Projects
 - ##### [push](https://git-scm.com/docs/git-push) - Update remote refs along with associated objects
 ```sh
 $ git push
